@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    margin: 0 auto;/*centralize in the page*/
+    background: white;
+    font-size: 24px;
+    /*padding: 25px;*/
+
+}
+/*first image*/
+.parallax-window { 
+    min-height: 500px; 
+    background: transparent; 
+}
+
+h1{
+    text-align: center;
+}
+
+.info{
+    z-index: 2;/*to be visible over the image in the parallax that we set up as 1*/
+    position: relative;
+}
+/*second image (with text)*/
+.parallax-window2 { 
+    padding: 100px 35px;/*100 (top and bottom) 35 (left and right)*/
+    background: transparent; 
+}

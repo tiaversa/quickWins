@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    margin: 0 auto;/*centralize in the page*/
+    background: skyblue;
+    font-size: 24px;
+    /*padding: 25px;*/
+
+}
+
+.parallax{
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;/*do the trick for the parallax*/
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1{
+    background-image: url("./images/IMG_8143.JPG");
+}
+.image2{
+    background-image: url("./images/IMG_7997.JPG");
+}
+.image3{
+    background-image: url("./images/IMG_8149.JPG");
+}
+.image4{
+    background: url("./images/IMG_8228.JPG") no-repeat center;
+}
+
+h1{
+    text-align: center;
+}
