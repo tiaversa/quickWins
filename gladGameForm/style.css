@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavender;
+    background-image: url("./image/IMG_8228.JPG");
+    background-attachment: fixed;
+    color: rgba(47, 47, 236, 0.527);
+}
+h1 , h2{
+text-align: center;
+}
+h1{
+    position: relative;
+    color: rgb(202, 202, 247);
+    font-size: 400%;
+}
+h2{
+    margin-top: 0px;
+}
+.mainForm{
+    position: relative;
+    width: 50%;
+    margin:0 auto;/*take the margin out and centers the div in the horizontal middle of the page*/
+    border:solid 1px gray;
+    border-radius: 15px;/*The following two lines makes the border rounded*/
+    -moz-border-radius:15px;
+    padding: 5%;
+    background-color: rgba(230, 230, 250, 0.521);
+    overflow: hidden;
+}
+#number{
+    width: 40%;
+}
+textarea{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#center{
+    text-align: center;
+}
+/*making it glassy*/
+.container{
+    background: inherit;
+}
+.container:before{
+content:'';
+position: fixed;
+top: 0;
+left:0;
+right: 0;
+bottom: 0;
+box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+filter:blur(2px);
+background: inherit;
+}
